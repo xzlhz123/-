@@ -10,7 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8432452-a30f-4ba8-8579-c9c2dce1b863" name="Default Changelist" comment="提交" />
+    <list default="true" id="b8432452-a30f-4ba8-8579-c9c2dce1b863" name="Default Changelist" comment="提交已已已i">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +29,7 @@
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qSuy2jqMKRtu1RDCoMHxwcBmzU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -35,12 +38,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sqw" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -174,7 +178,28 @@
       <option name="project" value="LOCAL" />
       <updated>1617706111678</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="提交">
+      <created>1617776768779</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617776768779</updated>
+    </task>
+    <task id="LOCAL-00003" summary="提交已已已i">
+      <created>1617777190125</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617777190125</updated>
+    </task>
+    <task id="LOCAL-00004" summary="提交已已已i">
+      <created>1617777252723</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617777252723</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,10 +212,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+    <MESSAGE value="提交已已已i" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交已已已i" />
   </component>
   <component name="WindowStateProjectService">
     <state x="892" y="419" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617175998984">
@@ -201,6 +228,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="336" y="176" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1617775032936" />
+    <state x="1075" y="543" key="Github.CreateGistDialog" timestamp="1617776517017">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1075" y="543" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617776517017" />
     <state width="1899" height="336" key="GridCell.Tab.0.bottom" timestamp="1617683438779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -233,14 +264,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="312" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617677113129" />
-    <state x="483" y="221" key="SettingsEditor" timestamp="1617775898426">
+    <state x="483" y="221" key="SettingsEditor" timestamp="1617777771656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="221" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617775898426" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617705705963">
+    <state x="483" y="221" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617777771656" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617778057403">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617705705963" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617778057403" />
+    <state x="593" y="255" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1617777552497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="593" y="255" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1617777552497" />
+    <state x="815" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617777134813">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="815" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617777134813" />
     <state x="662" y="121" width="596" height="798" key="find.popup" timestamp="1617349570883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
