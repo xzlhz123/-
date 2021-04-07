@@ -31,7 +31,10 @@ class RunMain():
 
 if __name__ == '__main__':  # 通过写死参数，来验证我们写的请求是否正确
  #登录接口
- result1 = RunMain().run_main('post', 'http://api.mkt.robotabc.com.cn/uaa/login', {'username': '18458163208','password':'lhz123456','isAgree':1,'loginType':'WORK_WX_WEB'})
+ url = 'http://qw.mkt.test.robotabc.com.cn?'
+ paramsUrl = url  +'&username = 18458163205&password=lhz123456&isAgree=1&loginType=WORK_WX_WEB'
+ result1 = RunMain().run_main('post', paramsUrl)
+ print(result1)
  access_token = json.loads(result1)['access_token']
  print(access_token)
  url = geturlParams().get_Url('channel')

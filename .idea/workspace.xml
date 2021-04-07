@@ -10,8 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8432452-a30f-4ba8-8579-c9c2dce1b863" name="Default Changelist" comment="提交已已已i">
+    <list default="true" id="b8432452-a30f-4ba8-8579-c9c2dce1b863" name="Default Changelist" comment="gilabddfg">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/configHttp.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/configHttp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +32,13 @@
     <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/xzlhz123/-.git" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1qSuy2jqMKRtu1RDCoMHxwcBmzU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,14 +52,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sqw" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workplace\InterfaceTest_master" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Globle">
+  <component name="RunManager" selected="Python.configHttp">
     <configuration name="Globle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterfaceTest_master" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.configHttp" />
         <item itemvalue="Python.Globle" />
         <item itemvalue="Python tests.Unittests for testChannel.testUserLogin" />
         <item itemvalue="Python.runAll" />
         <item itemvalue="Python.geturlParams" />
-        <item itemvalue="Python.configHttp" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +207,70 @@
       <option name="project" value="LOCAL" />
       <updated>1617777252723</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="提交已已已i苟富贵">
+      <created>1617778053615</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617778053615</updated>
+    </task>
+    <task id="LOCAL-00006" summary="空空如也">
+      <created>1617778088428</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617778088428</updated>
+    </task>
+    <task id="LOCAL-00007" summary="空空如也VB能看见你">
+      <created>1617778214380</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617778214380</updated>
+    </task>
+    <task id="LOCAL-00008" summary="gilab">
+      <created>1617780745789</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617780745789</updated>
+    </task>
+    <task id="LOCAL-00009" summary="gilabdd">
+      <created>1617780920054</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1617780920054</updated>
+    </task>
+    <task id="LOCAL-00010" summary="gilabddfg">
+      <created>1617780987830</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1617780987830</updated>
+    </task>
+    <task id="LOCAL-00011" summary="gilabddfg">
+      <created>1617781647050</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1617781647050</updated>
+    </task>
+    <task id="LOCAL-00012" summary="gilabddfg">
+      <created>1617781890258</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1617781890258</updated>
+    </task>
+    <task id="LOCAL-00013" summary="gilabddfg">
+      <created>1617781913945</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1617781913945</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,7 +278,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -217,7 +294,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交" />
     <MESSAGE value="提交已已已i" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交已已已i" />
+    <MESSAGE value="提交已已已i苟富贵" />
+    <MESSAGE value="空空如也" />
+    <MESSAGE value="空空如也VB能看见你" />
+    <MESSAGE value="gilab" />
+    <MESSAGE value="gilabdd" />
+    <MESSAGE value="gilabddfg" />
+    <option name="LAST_COMMIT_MESSAGE" value="gilabddfg" />
   </component>
   <component name="WindowStateProjectService">
     <state x="892" y="419" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617175998984">
@@ -232,22 +315,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1075" y="543" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617776517017" />
-    <state width="1899" height="336" key="GridCell.Tab.0.bottom" timestamp="1617683438779">
+    <state width="1899" height="263" key="GridCell.Tab.0.bottom" timestamp="1617780082328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617683438779" />
-    <state width="1899" height="336" key="GridCell.Tab.0.center" timestamp="1617683438779">
+    <state width="1899" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617780082328" />
+    <state width="1899" height="263" key="GridCell.Tab.0.center" timestamp="1617780082327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="336" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617683438779" />
-    <state width="1899" height="336" key="GridCell.Tab.0.left" timestamp="1617683438779">
+    <state width="1899" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617780082327" />
+    <state width="1899" height="263" key="GridCell.Tab.0.left" timestamp="1617780082327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="336" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617683438779" />
-    <state width="1899" height="336" key="GridCell.Tab.0.right" timestamp="1617683438779">
+    <state width="1899" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617780082327" />
+    <state width="1899" height="263" key="GridCell.Tab.0.right" timestamp="1617780082328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="336" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617683438779" />
+    <state width="1899" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617780082328" />
     <state width="1899" height="312" key="GridCell.Tab.1.bottom" timestamp="1617677113129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -264,14 +347,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="312" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617677113129" />
-    <state x="483" y="221" key="SettingsEditor" timestamp="1617777771656">
+    <state x="483" y="221" key="SettingsEditor" timestamp="1617779770585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="221" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617777771656" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617778057403">
+    <state x="483" y="221" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617779770585" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617781917593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617778057403" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617781917593" />
     <state x="593" y="255" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1617777552497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
