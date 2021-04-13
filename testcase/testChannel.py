@@ -1,13 +1,10 @@
 import json
-import logging
-import urllib
 
 import paramunittest as paramunittest
 
 from common.configHttp import RunMain
-from common.ddd import sessionRequest
 from common.readExcel import readExcel
-from config.Globle import header
+from common.Globle import headers
 from testcase import geturlParams
 import unittest
 from testcase.geturlParams import geturlParams
@@ -57,22 +54,18 @@ class testUserLogin(unittest.TestCase):
         check test result
         :return:
         """
-
-        print('666')
-        print(url)
+        url = geturlParams().get_Url('channel')
        #'将一个完整的url中的name=&pwd= 转换为{'name':'xxx','pwd':'xxx'}'
+       #data1 = dict(urllib.parse.parse_qsl(urllib.parse.urlsplit(new_url).query))
+        #获取参数
         new_url = url +self.inParam
-        data1 = dict(urllib.parse.parse_qsl(urllib.parse.urlsplit(new_url).query))
-        print('data1：')
-        print(new_url)
-        print(self.inParam)
-        info = RunMain().run_main(self.method, url, data=None,headers=header)
-        ss = json.loads(info)
-        # #根据EXCEL中的method调用run_main来进行request请求，并拿到响应
-        # data = self.inParam.encode('utf-8')
-        # info = RunMain().run_main(self.method, url, data=data)
-        # #将响应转换为字典格式
-        # ss = json.loads(info)
+        #添加渠道接口
+        result2 = RunMain().run_main('post', new_url,data=None, headers=headers)
+
+        # 将响应转换为字典格式
+        ss = json.loads(result2)
+        #根据EXCEL中的method调用run_main来进行request请求，并拿到响应
+        data = self.inParam.encode('utf-8')
         #如果case_name 是login,说明合法，返回的code应该是200
         if self.case_name == '正确渠道名称':
             print(ss['code'])
@@ -83,10 +76,15 @@ class testUserLogin(unittest.TestCase):
             print(ss['code'])
             self.assertEqual(ss['code'],500)
         # 如果case_name 是login_null说明合法，返回的code应该是404
-        else:
+        if self.case_name == '渠道名称为空':
             print(ss['code'])
             self.assertEqual(ss['code'],500)
-
+        if self.case_name == '输入特殊字符':
+            print(ss['code'])
+            self.assertEqual(ss['code'],500)
+        if self.case_name == '输入已存在的渠道名称':
+            print(ss['code'])
+            self.assertEqual(ss['code'],500)
 if __name__ == '__main':
     testUserLogin.checkResult()
 

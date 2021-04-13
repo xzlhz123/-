@@ -29,6 +29,10 @@ class readExcel():
                 cls.append(sheet.row_values(i))
 
         return cls
+    '定义一个方法获取excel中的入参'
+    def get_param(self,xls_name,sheet_name):
+        data = readExcel().get_xls('userCase.xlsx', sheet_name)[1][5]
+
 '我们执行该文件测试一下是否可以正常获取excel中的值'
 if __name__ == '__main__':
     print(readExcel().get_xls('userCase.xlsx', 'channel')[0][0])

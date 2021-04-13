@@ -10,10 +10,32 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8432452-a30f-4ba8-8579-c9c2dce1b863" name="Default Changelist" comment="gilabddfg">
+    <list default="true" id="b8432452-a30f-4ba8-8579-c9c2dce1b863" name="Default Changelist" comment="提交">
+      <change afterPath="$PROJECT_DIR$/common/Globle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/commonInft.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/commonUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/interface/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/interface/channel/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/interface/channel/channelIntf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/interface/channel/channelParam.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/interface/channel/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/interface/channel/test22.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/interface/commonIntf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/test/channelTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/configHttp.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/configHttp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/readExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/readExcel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/Globle.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/logs" beforeDir="false" afterPath="$PROJECT_DIR$/result/logs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runAll.py" beforeDir="false" afterPath="$PROJECT_DIR$/runAll.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFile/case/userCase.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testFile/case/userCase.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/geturlParams.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/geturlParams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/testChannel.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/testChannel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +73,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sqw" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Web_Test" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workplace\InterfaceTest_master\script\interface\commonIntf" />
+      <recent name="D:\workplace\InterfaceTest_master\common" />
       <recent name="D:\workplace\InterfaceTest_master" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.configHttp">
-    <configuration name="Globle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in test22.py">
+    <configuration name="channelIntf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterfaceTest_master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,11 +92,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/config" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script/interface/channel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config/Globle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/script/interface/channel/channelIntf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="configHttp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="commons" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterfaceTest_master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,11 +113,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script/interface/commonIntf" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/configHttp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/script/interface/commonIntf/commons.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,69 +126,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="geturlParams" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="InterfaceTest_master" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/geturlParams.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="runAll" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="InterfaceTest_master" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runAll.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for testChannel.testUserLogin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test22.mytest.test_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="InterfaceTest_master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script/interface/channel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testChannel.testUserLogin&quot;" />
+      <option name="_new_target" value="&quot;test22.mytest.test_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in channelTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="InterfaceTest_master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/script/test/channelTest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test22.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="InterfaceTest_master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script/interface/channel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/script/interface/channel/test22.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.configHttp" />
-        <item itemvalue="Python.Globle" />
-        <item itemvalue="Python tests.Unittests for testChannel.testUserLogin" />
-        <item itemvalue="Python.runAll" />
-        <item itemvalue="Python.geturlParams" />
+        <item itemvalue="Python tests.Unittests in test22.py" />
+        <item itemvalue="Python tests.Unittests for test22.mytest.test_login" />
+        <item itemvalue="Python.commons" />
+        <item itemvalue="Python.channelIntf" />
+        <item itemvalue="Python tests.Unittests in channelTest.py" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +280,49 @@
       <option name="project" value="LOCAL" />
       <updated>1617781913945</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="gilabddfg">
+      <created>1617781963454</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1617781963454</updated>
+    </task>
+    <task id="LOCAL-00015" summary="gilabddfg">
+      <created>1617782053753</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1617782053753</updated>
+    </task>
+    <task id="LOCAL-00016" summary="zh">
+      <created>1617782100416</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1617782100416</updated>
+    </task>
+    <task id="LOCAL-00017" summary="zh">
+      <created>1617782157739</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1617782157739</updated>
+    </task>
+    <task id="LOCAL-00018" summary="zhdf">
+      <created>1617782275067</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1617782275067</updated>
+    </task>
+    <task id="LOCAL-00019" summary="提交">
+      <created>1617871634983</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1617871634983</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,7 +344,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="提交" />
     <MESSAGE value="提交已已已i" />
     <MESSAGE value="提交已已已i苟富贵" />
     <MESSAGE value="空空如也" />
@@ -300,37 +351,40 @@
     <MESSAGE value="gilab" />
     <MESSAGE value="gilabdd" />
     <MESSAGE value="gilabddfg" />
-    <option name="LAST_COMMIT_MESSAGE" value="gilabddfg" />
+    <MESSAGE value="zh" />
+    <MESSAGE value="zhdf" />
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="892" y="419" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617175998984">
+    <state x="892" y="419" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618213550717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="892" y="419" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1617175998984" />
-    <state x="336" y="176" key="FileChooserDialogImpl" timestamp="1617775032936">
+    <state x="892" y="419" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618213550717" />
+    <state x="336" y="176" key="FileChooserDialogImpl" timestamp="1617788593549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="336" y="176" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1617775032936" />
+    <state x="336" y="176" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1617788593549" />
     <state x="1075" y="543" key="Github.CreateGistDialog" timestamp="1617776517017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1075" y="543" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617776517017" />
-    <state width="1899" height="263" key="GridCell.Tab.0.bottom" timestamp="1617780082328">
+    <state width="1899" height="299" key="GridCell.Tab.0.bottom" timestamp="1618306667717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617780082328" />
-    <state width="1899" height="263" key="GridCell.Tab.0.center" timestamp="1617780082327">
+    <state width="1899" height="299" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618306667717" />
+    <state width="1899" height="299" key="GridCell.Tab.0.center" timestamp="1618306667717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617780082327" />
-    <state width="1899" height="263" key="GridCell.Tab.0.left" timestamp="1617780082327">
+    <state width="1899" height="299" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618306667717" />
+    <state width="1899" height="299" key="GridCell.Tab.0.left" timestamp="1618306667717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617780082327" />
-    <state width="1899" height="263" key="GridCell.Tab.0.right" timestamp="1617780082328">
+    <state width="1899" height="299" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618306667717" />
+    <state width="1899" height="299" key="GridCell.Tab.0.right" timestamp="1618306667717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617780082328" />
+    <state width="1899" height="299" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618306667717" />
     <state width="1899" height="312" key="GridCell.Tab.1.bottom" timestamp="1617677113129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -351,18 +405,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="483" y="221" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617779770585" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617781917593">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617871638693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617781917593" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617871638693" />
     <state x="593" y="255" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1617777552497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="593" y="255" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1617777552497" />
-    <state x="815" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617777134813">
+    <state x="815" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617782148813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="815" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617777134813" />
+    <state x="815" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617782148813" />
     <state x="662" y="121" width="596" height="798" key="find.popup" timestamp="1617349570883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

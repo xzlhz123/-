@@ -181,9 +181,9 @@
         
     <div class='page-header'>
         <h1>Test Report</h1>
-    <p class='attribute'><strong>开始时间:</strong> 2021-04-06 11:37:55</p>
-<p class='attribute'><strong>运行时长:</strong> 0:00:00</p>
-<p class='attribute'><strong>状态:</strong> 错误 1</p>
+    <p class='attribute'><strong>开始时间:</strong> 2021-04-07 17:58:08</p>
+<p class='attribute'><strong>运行时长:</strong> 0:00:00.326127</p>
+<p class='attribute'><strong>状态:</strong> 通过 6</p>
 
     </div>
     <div style="float: left;width:50%;"><p class='description'>Test Description</p></div>
@@ -214,33 +214,215 @@
             <td>查看</td>
         </tr>
         
-    <tr class='errorClass'>
-        <td>unittest.loader._FailedTest</td>
+    <tr class='passClass'>
+        <td>paramunittest.testUserLogin_0</td>
+        <td>1</td>
         <td>1</td>
         <td>0</td>
         <td>0</td>
-        <td>1</td>
         <td><a href="javascript:showClassDetail('c1',1)">详情</a></td>
     </tr>
 
-<tr id='ft1.1' class='none'>
-    <td class='errorCase'><div class='testcase'>testChannel</div></td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test01case</div></td>
     <td colspan='5' align='center'>
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        错误</a>
-    <div id='div_ft1.1' class="popup_window">
-        <pre>ft1.1: ImportError: Failed to import test module: testChannel
-Traceback (most recent call last):
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python36-32\lib\unittest\loader.py", line 428, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python36-32\lib\unittest\loader.py", line 369, in _get_module_from_name
-    __import__(name)
-  File "D:\workplace\InterfaceTest_master999\testCase\testChannel.py", line 10, in &lt;module&gt;
-    from config.Globle import header
-  File "D:\workplace\InterfaceTest_master999\config\Globle.py", line 9, in &lt;module&gt;
-    token = json.loads(result1)['access_token']
-KeyError: 'access_token'
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        通过</a>
+    <div id='div_pt1.1' class="popup_window">
+        <pre>pt1.1: case_name
+
+测试开始前准备
+http://api.mkt.test.robotabc.com.cn/mkt-mobile/qw-marketing/add-channel?inParam
+{
+  "at": null,
+  "code": 200,
+  "data": null,
+  "message": "操作成功！"
+}
+测试结束，输出log完结
+
+
+</pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+    <tr class='passClass'>
+        <td>paramunittest.testUserLogin_1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="javascript:showClassDetail('c2',1)">详情</a></td>
+    </tr>
+
+<tr id='pt2.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test01case</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
+        通过</a>
+    <div id='div_pt2.1' class="popup_window">
+        <pre>pt2.1: 渠道名称为空
+
+测试开始前准备
+http://api.mkt.test.robotabc.com.cn/mkt-mobile/qw-marketing/add-channel?channelName=''
+{
+  "code": 500,
+  "data": null,
+  "detail": null,
+  "message": "该渠道已存在！"
+}
+500
+测试结束，输出log完结
+
+
+</pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+    <tr class='passClass'>
+        <td>paramunittest.testUserLogin_2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="javascript:showClassDetail('c3',1)">详情</a></td>
+    </tr>
+
+<tr id='pt3.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test01case</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.1')" >
+        通过</a>
+    <div id='div_pt3.1' class="popup_window">
+        <pre>pt3.1: 正确渠道名称
+
+测试开始前准备
+http://api.mkt.test.robotabc.com.cn/mkt-mobile/qw-marketing/add-channel?channelName=测试
+cd=99
+{
+  "at": null,
+  "code": 200,
+  "data": null,
+  "message": "操作成功！"
+}
+200
+测试结束，输出log完结
+
+
+</pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+    <tr class='passClass'>
+        <td>paramunittest.testUserLogin_3</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="javascript:showClassDetail('c4',1)">详情</a></td>
+    </tr>
+
+<tr id='pt4.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test01case</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.1')" >
+        通过</a>
+    <div id='div_pt4.1' class="popup_window">
+        <pre>pt4.1: 渠道名称大于10个字符
+
+测试开始前准备
+http://api.mkt.test.robotabc.com.cn/mkt-mobile/qw-marketing/add-channel?channelName=测试测试测试测试测试测试
+{
+  "code": 500,
+  "data": null,
+  "detail": null,
+  "message": "该渠道已存在！"
+}
+500
+测试结束，输出log完结
+
+
+</pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+    <tr class='passClass'>
+        <td>paramunittest.testUserLogin_4</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="javascript:showClassDetail('c5',1)">详情</a></td>
+    </tr>
+
+<tr id='pt5.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test01case</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt5.1')" >
+        通过</a>
+    <div id='div_pt5.1' class="popup_window">
+        <pre>pt5.1: 输入特殊字符
+
+测试开始前准备
+http://api.mkt.test.robotabc.com.cn/mkt-mobile/qw-marketing/add-channel?channelName=%%###
+{
+  "code": 500,
+  "data": null,
+  "detail": null,
+  "message": "该渠道已存在！"
+}
+500
+测试结束，输出log完结
+
+
+</pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+    <tr class='passClass'>
+        <td>paramunittest.testUserLogin_5</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="javascript:showClassDetail('c6',1)">详情</a></td>
+    </tr>
+
+<tr id='pt6.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test01case</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt6.1')" >
+        通过</a>
+    <div id='div_pt6.1' class="popup_window">
+        <pre>pt6.1: 输入已存在的渠道名称
+
+测试开始前准备
+http://api.mkt.test.robotabc.com.cn/mkt-mobile/qw-marketing/add-channel?channelName=测试
+{
+  "code": 500,
+  "data": null,
+  "detail": null,
+  "message": "该渠道已存在！"
+}
+500
+测试结束，输出log完结
+
 
 </pre>
     </div>
@@ -250,10 +432,10 @@ KeyError: 'access_token'
 
         <tr id='total_row'>
             <td>总计</td>
-            <td>1</td>
+            <td>6</td>
+            <td>6</td>
             <td>0</td>
             <td>0</td>
-            <td>1</td>
             <td>&nbsp;</td>
         </tr>
     </table>
@@ -286,9 +468,9 @@ KeyError: 'access_token'
                     radius : '60%',
                     center: ['50%', '60%'],
                     data:[
-                        {value:0, name:'通过'},
+                        {value:6, name:'通过'},
                         {value:0, name:'失败'},
-                        {value:1, name:'错误'}
+                        {value:0, name:'错误'}
                     ],
                     itemStyle: {
                         emphasis: {

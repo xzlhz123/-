@@ -10,8 +10,8 @@ class RunMain():
     '定义一个方法，传入需要的参数url和data'
     def send_post(self,url,data,header):
         '参数必须按照url，data顺序传入'
-        result = requests.post(url=url,data=None,headers=header).json()
-        #result = requests.post(url, data=None, json=data, headers=header).json()
+        #result = requests.post(url=url,data=None,headers=header).json()
+        result = requests.post(url, data=None, json=data, headers=header).json()
         res = json.dumps(result,ensure_ascii=False,sort_keys=True,indent=2)
         return res
     def send_get(self,url,data,header):
@@ -29,27 +29,20 @@ class RunMain():
             print("method值错误！")
         return result
 
-if __name__ == '__main__':  # 通过写死参数，来验证我们写的请求是否正确
- #登录接口
- url = 'http://qw.mkt.test.robotabc.com.cn?'
- paramsUrl = url  +'&username = 18458163205&password=lhz123456&isAgree=1&loginType=WORK_WX_WEB'
- result1 = RunMain().run_main('post', paramsUrl)
- print(result1)
- access_token = json.loads(result1)['access_token']
- print(access_token)
- url = geturlParams().get_Url('channel')
- headers = {
-     'platform': 'PC',
-     'wx-data-source': 'QW',
-     'Content-Type': 'application/json',
-     'v': '2.0.0',
-     'token':access_token
- }
- #添加渠道接口
- result2 = RunMain().run_main('post', 'https://api.mkt.robotabc.com.cn/mkt-mobile/qw-marketing/add-channel',
-                              {'channelName':'55'},headers=headers)
-
- print(result2)
+# if __name__ == '__main__':  # 通过写死参数，来验证我们写的请求是否正确
+#  url = geturlParams().get_Url('channel')
+#  headers = {
+#      'platform': 'PC',
+#      'wx-data-source': 'QW',
+#      'Content-Type': 'application/json',
+#      'v': '2.0.0',
+#      'token':access_token
+#  }
+#  #添加渠道接口
+#  result2 = RunMain().run_main('post', 'http://api.mkt.test.robotabc.com.cn/mkt-mobile/qw-marketing/add-channel?channelName=999',
+#                               data=None,headers=headers)
+#
+#  print(result2)
 
 
 
